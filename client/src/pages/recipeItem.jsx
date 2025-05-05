@@ -5,7 +5,7 @@ function RecipeQueries() {
   const [queries, setQueries] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8001/recipe').then((res) => {
+    axios.get('https://mern-eval11.onrender.com/recipe').then((res) => {
       setQueries(res.data);
     });
   });

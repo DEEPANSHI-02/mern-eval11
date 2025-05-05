@@ -16,7 +16,7 @@ function recipeManager  () {
             return;
           }
         
-    await axios.post('http://localhost:8001/recipe', {
+    await axios.post('https://mern-eval11.onrender.com/recipe', {
         title,
         Ingredients,
         steps,
