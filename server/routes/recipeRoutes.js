@@ -7,5 +7,6 @@ router.post('/recipe', createRecipe);
 router.get('/recipe', getRecipe);
 // router.put('/recipe', updateRecipe)
 router.delete('/recipe', deleteRecipe)
+router.put('/recipe', updateRecipe)
 
 module.exports = router;
