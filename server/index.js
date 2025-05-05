@@ -17,7 +17,7 @@ app.use(express.json());
 app.use('/recipe',recipeRoutes)
 
 app.get('/', (req, res) => {
-    console.log('Welcome to recipe manager')
+    res.json({ message: "welcome to recipe " });
 })
   
 const PORT = process.env.PORT || 8001;
